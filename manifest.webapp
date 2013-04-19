@@ -1,0 +1,20 @@
+{
+    "name":"Splat!",
+    "developer": {
+        "name": "Arief Bayu Purwanto",
+        "url": "http://bayu.freelancer.web.id/"
+    },
+    "launch_path": "/index.html",
+    "description": "Fill available space until all cells have the same color to win the game.",
+    "csp": "default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'",
+    "fullscreen": "true",
+    "orientation": ["portrait"],
+    "icons":{
+        "16":"/img/icon_16.png",
+        "32":"/img/icon_32.png",
+        "48":"/img/icon_48.png",
+        "64":"/img/icon_64.png",
+        "128":"/img/icon_128.png"
+    },
+    "default_locale": "en"
+}

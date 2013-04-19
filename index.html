@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GameJS Application</title>
+<!-- Styling -->
+    <style type=text/css>
+        body{
+           background:#fff;
+           color:#222;
+           margin:0;
+           padding:0;
+        }
+        #gjs-loader {
+            width: 50%;
+            height: 50%;
+            /*background: url('../skeleton/public/ajax-loader.gif');*/
+        }
+    </style>
+    <script src="javascript/yabble.js"></script>
+    <script src="javascript/gamejs.min.js"></script>
+    <script src="javascript/boardlogic.js"></script>
+    <script>
+        require.setModuleRoot('./javascript/');
+        require.run('main')
+    </script>
+</head>
+<body>
+    <div>
+        <div id="gjs-loader">
+         Loading...
+        </div>
+        <canvas id="gjs-canvas"></canvas>
+    </div>
+</body>
+</html>
