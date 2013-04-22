@@ -29,10 +29,9 @@ var logic = {
 
         this.floodFill(0, 0, currentColor, colorIdx);
 
+		this.step++;
         this.completed = this.checkBoard(colorIdx);
-        if(!this.completed){
-            this.step++;
-        } else {
+        if(this.completed){
 			console.log("done!");
         }
     },
