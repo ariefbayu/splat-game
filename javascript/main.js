@@ -51,7 +51,7 @@ function drawWinScreen(){
    var finFont = new font.Font("14px Verdana");
    var textFin = finFont.render("Play Again!", "#000000");
    var finPosX = (screenWidth / 2) - (textFin.getSize()[0] / 2);
-   display.blit(textFin, [finPosX, pbY + (playButtonSize[1] / 2)]);
+   display.blit(textFin, [finPosX, pbY - 10 + (playButtonSize[1] / 2)]);
 
 }
 function drawGameObject(){
@@ -117,7 +117,7 @@ function drawMenuScreen(){
    var finFont = new font.Font("14px Verdana");
    var textFin = finFont.render("Play!", "#000000");
    var finPosX = (screenWidth / 2) - (textFin.getSize()[0] / 2);
-   display.blit(textFin, [finPosX, pbY + (playButtonSize[1] / 2)]);
+   display.blit(textFin, [finPosX, pbY - 10 + (playButtonSize[1] / 2)]);
 
    var ccFont = new font.Font("10px Verdana");
    var textCc = ccFont.render("(c)2013 Arief Bayu Purwanto", "#000000");
