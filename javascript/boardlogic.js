@@ -4,7 +4,7 @@ var logic = {
 	cellData: [],
 	completed: false,
 	step: 0,
-	colors: ["red", "green", "blue", "yellow", "gold", "aqua"],
+	colors: ["red", "green", "blue", "yellow", "#FC8700", "aqua"],
 	initialize: function(rowSize, cellSize){
 		this._rowCount = rowSize;
 		this._cellCount = cellSize;
